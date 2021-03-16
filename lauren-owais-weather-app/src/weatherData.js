@@ -11,27 +11,27 @@ const weatherData = [
         text: "Tuesday",
         weather: "🌤",
         temphigh: "32˚",
-        templow: "26˚"
+        templow: "27˚"
     },
     {
         id: 3,
         text: "Wednesday",
         weather: "🌤",
-        temphigh: "32˚",
+        temphigh: "34˚",
         templow: "26˚"
     },
     {
         id: 4,
         text: "Thursday",
         weather: "🌤",
-        temphigh: "32˚",
+        temphigh: "34˚",
         templow: "26˚"
     },
     {
         id: 5,
         text: "Friday",
         weather: "🌤",
-        temphigh: "32˚",
+        temphigh: "34˚",
         templow: "26˚"
     }
 ]
