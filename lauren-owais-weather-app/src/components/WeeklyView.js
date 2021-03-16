@@ -1,14 +1,15 @@
 import React from "react"
 
-function TodoItem(props) {
+function WeeklyView(props) {
     return (
-        <div className="todo-item">
+        <div className="WeeklyView">
             <p className="date">{props.item.text}</p>
-            <span className="weather">{props.item.weather} </span>
+            // <span className="weather">{props.item.weather} </span>
+            <img src={props.item.weather} />
             <span> {props.item.temphigh} </span>
             <span className="low"> {props.item.templow} </span>
         </div>
     )
 }
 
-export default TodoItem
+export default WeeklyView

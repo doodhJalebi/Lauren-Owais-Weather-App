@@ -1,4 +1,4 @@
-/* 
+/*
 Monday - 28
 Tuesday - 21
 Wednesday - 007
@@ -11,39 +11,54 @@ Sunday - 30
 const weatherData = [
     {
         id: 1,
-        text: "Monday",
-        weather: "🌤",
+        text: "MON",
+        weather: "./assets/images/028-cloudy.png",
         temphigh: "32˚",
         templow: "26˚"
     },
     {
         id: 2,
-        text: "Tuesday",
-        weather: "🌤",
+        text: "TUE",
+        weather:"./assets/images/021-clouds.png",
         temphigh: "32˚",
         templow: "27˚"
     },
     {
         id: 3,
-        text: "Wednesday",
-        weather: "🌤",
+        text: "WED",
+        weather: "./assets/images/007-windy.png",
         temphigh: "34˚",
         templow: "26˚"
     },
     {
         id: 4,
-        text: "Thursday",
-        weather: "🌤",
+        text: "THU",
+        weather: "./assets/images/029-windy.png",
         temphigh: "34˚",
         templow: "26˚"
     },
     {
         id: 5,
-        text: "Friday",
-        weather: "🌤",
+        text: "FRI",
+        weather: "./assets/images/002-rain.png",
+        temphigh: "34˚",
+        templow: "26˚"
+    },
+    {
+        id: 6,
+        text: "SAT",
+        weather: "./assets/images/002-rain.png",
+        temphigh: "34˚",
+        templow: "26˚"
+    },
+    {
+        id: 7,
+        text: "SUN",
+        weather: "./assets/images/002-rain.png",
         temphigh: "34˚",
         templow: "26˚"
     }
+
 ]
 
-export default todosData
+export default weatherData
