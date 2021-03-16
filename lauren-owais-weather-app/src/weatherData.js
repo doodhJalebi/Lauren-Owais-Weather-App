@@ -1,3 +1,13 @@
+/* 
+Monday - 28
+Tuesday - 21
+Wednesday - 007
+Thursday - 29
+Friday - 2
+Saturday - 5
+Sunday - 30
+*/
+
 const weatherData = [
     {
         id: 1,
