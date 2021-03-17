@@ -6,7 +6,7 @@ function DailyView() {
     return (
         <div id="container">
             <div id="city-name-box">
-                <span className={styles.cityNameText}>Manila</span>
+                <span className={styles.cityNameText}>Karachi</span>
             </div>
             <div id="forecast-text-box">
                 <span className={styles.forecastText}>Cloudy</span>

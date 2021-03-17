@@ -1,17 +1,18 @@
 .weeklyTileContainer {
-    /* border: 10px solid paleturquoise; */
     margin: auto;
+    padding-left: 1em;
+    padding-right: 1em;
 }
 .date {
     text-align: center;
 }
 
 .templow {
-    color: gray;
+    color: #343a40;
 }
 
 .weatherImage {
-    max-width: 5vw;
+    max-width: 6vw;
     height: auto;
     text-align: center;
     align-items: center;
@@ -20,5 +21,7 @@
 
 .tempText {
     display: flex;
-    border: 1px solid paleturquoise;
+    /* text-align: center;
+    align-items: center; */
+    justify-content: center;
 }

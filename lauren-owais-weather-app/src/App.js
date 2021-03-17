@@ -1,3 +1,4 @@
+/* Image assets from: @Baianat/Flaticon */
 import DailyView from "./components/DailyView";
 import WeeklyView from "./components/WeeklyView";
 
@@ -11,3 +12,4 @@ function App() {
 }
 
 export default App;
+
