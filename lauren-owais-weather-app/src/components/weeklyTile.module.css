@@ -1,0 +1,24 @@
+.weeklyTileContainer {
+    /* border: 10px solid paleturquoise; */
+    margin: auto;
+}
+.date {
+    text-align: center;
+}
+
+.templow {
+    color: gray;
+}
+
+.weatherImage {
+    max-width: 5vw;
+    height: auto;
+    text-align: center;
+    align-items: center;
+
+}
+
+.tempText {
+    display: flex;
+    border: 1px solid paleturquoise;
+}
