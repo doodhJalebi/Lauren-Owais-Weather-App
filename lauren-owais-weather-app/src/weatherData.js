@@ -47,14 +47,14 @@ const weatherData = [
     {
         id: 6,
         text: "SAT",
-        weather: "/images/002-rain.png",
+        weather: "/images/005-storm.png",
         temphigh: "34˚",
         templow: "26˚"
     },
     {
         id: 7,
         text: "SUN",
-        weather: "/images/002-rain.png",
+        weather: "/images/030-hail.png",
         temphigh: "34˚",
         templow: "26˚"
     }
