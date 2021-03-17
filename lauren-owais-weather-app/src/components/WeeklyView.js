@@ -1,15 +1,14 @@
-import React from "react"
-
-function WeeklyView(props) {
+import React from "react";
+import WeeklyTile from "./WeeklyTile";
+import weatherData from "../weatherData";
+ 
+function WeeklyView() {
+    const WeeklyOverview = weatherData.map(item => <WeeklyTile key={item.id} item={item}/>)
     return (
-        <div className="WeeklyView">
-            <p className="date">{props.item.text}</p>
-            // <span className="weather">{props.item.weather} </span>
-            <img src={props.item.weather} />
-            <span> {props.item.temphigh} </span>
-            <span className="templow"> {props.item.templow} </span>
+        <div>
+            {WeeklyOverview}
         </div>
-    )
+    );
 }
 
-export default WeeklyView
+export default WeeklyView;
